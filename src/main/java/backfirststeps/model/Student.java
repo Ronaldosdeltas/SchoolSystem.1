@@ -11,4 +11,28 @@ public class  Student extends Person {
         this.metter = metter;
         DataMatricula = dataMatricula;
     }
+
+    public ArrayList<Metter> getMetter() {
+        return metter;
+    }
+
+    public void setMetter(ArrayList<Metter> metter) {
+        this.metter = metter;
+    }
+
+    public int getDataMatricula() {
+        return DataMatricula;
+    }
+
+    public void setDataMatricula(int dataMatricula) {
+        DataMatricula = dataMatricula;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "metter=" + metter +
+                ", DataMatricula=" + DataMatricula +
+                '}';
+    }
 }

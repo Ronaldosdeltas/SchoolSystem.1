@@ -11,6 +11,9 @@ public class  Student extends Person {
         this.metter = metter;
         DataMatricula = dataMatricula;
     }
+    public Student(String name,int id){
+        super(name,id);
+    }
 
     public ArrayList<Metter> getMetter() {
         return metter;

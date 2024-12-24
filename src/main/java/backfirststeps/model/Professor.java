@@ -3,21 +3,21 @@ package backfirststeps.model;
 import java.util.ArrayList;
 
 public class Professor extends Person {
-    private ArrayList<Class> classs;
+    private ArrayList<Cless> classs;
     private Metter metter;
 
-    public Professor(String name, int id, ArrayList<Class> classs, Metter metter) {
+    public Professor(String name, int id, ArrayList<Cless> classses, Metter metter) {
         super(name, id);
-        this.classs = classs;
+        this.classs = classses;
         this.metter = metter;
     }
 
-    public ArrayList<Class> getClasss() {
+    public ArrayList<Cless> getClasss() {
         return classs;
     }
 
-    public void setClasss(ArrayList<Class> classs) {
-        this.classs = classs;
+    public void setClasss(ArrayList<Cless> classses) {
+        this.classs = classses;
     }
 
     public Metter getMetter() {

@@ -2,14 +2,14 @@ package backfirststeps.model;
 
 import java.util.ArrayList;
 
-public class Class {
+public class Cless {
     private String name;
     private String code;
     private ArrayList<Metter> metters;
     private ArrayList<Professor> professors;
     private ArrayList<Student> students;
 
-    public Class(String name, String code, ArrayList<Professor> professors, ArrayList<Metter> metters,
+    public Cless(String name, String code, ArrayList<Professor> professors, ArrayList<Metter> metters,
                  ArrayList<Student> students) {
         this.name = name;
         this.code = code;
